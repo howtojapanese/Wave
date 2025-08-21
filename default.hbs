@@ -90,6 +90,36 @@
     <footer class="gh-foot gh-outer">
         <div class="gh-foot-inner gh-inner">
             <div class="subscribe{{#if is_popup}} popup{{/if}}">
+                {{#if @custom.web_link}}
+                    <a href="{{@custom.web_link}}" class="subscribe-link" target="_blank" rel="noopener noreferrer">
+                        {{> "icons/web"}}
+                        <span class="subscribe-text">How to Japanese (the blog)</span>
+                    </a>
+                {{/if}}
+                {{#if @custom.bluesky_link}}
+                    <a href="{{@custom.bluesky_link}}" class="subscribe-link" target="_blank" rel="noopener noreferrer">
+                        {{> "icons/bluesky"}}
+                        <span class="subscribe-text">Bluesky</span>
+                    </a>
+                {{/if}}
+                {{#if @custom.mastodon_link}}
+                    <a href="{{@custom.mastodon_link}}" class="subscribe-link" target="_blank" rel="noopener noreferrer">
+                        {{> "icons/mastodon"}}
+                        <span class="subscribe-text">Mastodon</span>
+                    </a>
+                {{/if}}
+                {{#if @custom.tiktok_link}}
+                    <a href="{{@custom.tiktok_link}}" class="subscribe-link" target="_blank" rel="noopener noreferrer">
+                        {{> "icons/mastodon"}}
+                        <span class="subscribe-text">Tiktok</span>
+                    </a>
+                {{/if}}
+                {{#if @custom.instagram_link}}
+                    <a href="{{@custom.instagram_link}}" class="subscribe-link" target="_blank" rel="noopener noreferrer">
+                        {{> "icons/instagram"}}
+                        <span class="subscribe-text">Instagram</span>
+                    </a>
+                {{/if}}
                 {{#if @custom.apple_podcasts_link}}
                     <a href="{{@custom.apple_podcasts_link}}" class="subscribe-link" target="_blank" rel="noopener noreferrer">
                         {{> "icons/apple"}}
@@ -100,6 +130,12 @@
                     <a href="{{@custom.google_podcasts_link}}" class="subscribe-link" target="_blank" rel="noopener noreferrer">
                         {{> "icons/google"}}
                         <span class="subscribe-text">Google</span>
+                    </a>
+                {{/if}}
+                {{#if @custom.youtube_link}}
+                    <a href="{{@custom.youtube_link}}" class="subscribe-link" target="_blank" rel="noopener noreferrer">
+                        {{> "icons/youtube"}}
+                        <span class="subscribe-text">YouTube</span>
                     </a>
                 {{/if}}
                 {{#if @custom.spotify_link}}

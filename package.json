@@ -57,6 +57,30 @@
                 "options": ["Modern sans-serif", "Elegant serif"],
                 "default": "Modern sans-serif"
             },
+            "web_link": {
+                "type": "text",
+                "default": ""
+            },
+            "bluesky_link": {
+                "type": "text",
+                "default": ""
+            },
+            "instagram_link": {
+                "type": "text",
+                "default": ""
+            },
+            "tiktok_link": {
+                "type": "text",
+                "default": ""
+            },
+            "mastodon_link": {
+                "type": "text",
+                "default": ""
+            },
+            "youtube_link": {
+                "type": "text",
+                "default": ""
+            },
             "apple_podcasts_link": {
                 "type": "text",
                 "default": "https://podcasts.apple.com/"
